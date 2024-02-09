@@ -78,6 +78,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     window.history.replaceState('', '', '/');
   }
 
+  // Call the function when the page loads
   window.onload = function() {
     replaceHistoryState();
   };
@@ -97,6 +98,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         <input type="password" id="password" name="password" required><br><br>
         <input type="submit" value="Submit">
     </form>
+    <a href="login.php">Have an account?</a>
     </div>
 </body>
 </html>
