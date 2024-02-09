@@ -1,15 +1,24 @@
 # php-chat-v2
 
+
 # Set up
+
 How I did it:
 
+
 Go to codesandbox.io/dashboard
+
 Create a Devbox
+
 Search templates
+
 PHP Starter
+
 Download the github files and upload them there.
 
+
 # Admin account set up
+
 
 Go to the files
 
