@@ -153,12 +153,13 @@ h1 {
 
         setInterval(refreshChat, 500);
 
+        // Add event listener to detect Enter key press in textarea
         document.addEventListener('DOMContentLoaded', function() {
             var textarea = document.querySelector('textarea[name="message"]');
             textarea.addEventListener('keypress', function(event) {
                 if (event.key === 'Enter') {
-                    event.preventDefault();
-                    document.querySelector('input[type="submit"]').click();
+                    event.preventDefault(); // Prevent default behavior of Enter key
+                    document.querySelector('input[type="submit"]').click(); // Simulate click on Send button
                 }
             });
         });
