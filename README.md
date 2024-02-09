@@ -4,7 +4,10 @@
 How I did it:
 
 Go to codesandbox.io/dashboard
-Import repository > Your fork url
+Create a Devbox
+Search templates
+PHP Starter
+Download the github files and upload them there.
 
 # Admin account set up
 
