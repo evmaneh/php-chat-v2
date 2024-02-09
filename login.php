@@ -42,6 +42,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     window.history.replaceState('', '', '/');
   }
 
+  // Call the function when the page loads
   window.onload = function() {
     replaceHistoryState();
   };
