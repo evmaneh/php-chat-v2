@@ -80,7 +80,6 @@ $bannedIPs = getBannedIPs();
     window.history.replaceState('', '', '/');
   }
 
-  // Call the function when the page loads
   window.onload = function() {
     replaceHistoryState();
   };
@@ -94,7 +93,7 @@ $bannedIPs = getBannedIPs();
             clearChatButton.disabled = true;
             setTimeout(function() {
                 clearChatButton.disabled = false;
-            }, 500); // 0.5 seconds delay
+            }, 500);
         }
         
         window.onload = function() {
